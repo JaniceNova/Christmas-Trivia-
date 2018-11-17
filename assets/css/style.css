@@ -1,0 +1,23 @@
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    background-image: url(../images/christmaslightsBackground.jpeg)
+}
+
+#part1 {
+    background-color: rgb(255, 230, 148);
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100vh;
+    opacity: .7;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 40px;
+}
