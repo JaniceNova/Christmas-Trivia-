@@ -1,3 +1,8 @@
+
+
+
+
+
 var countdownTime = 124;
 
 setInterval(function() {
@@ -5,3 +10,12 @@ setInterval(function() {
     $("#").html(countdownTime);
     
   }, 1000);
+
+
+
+
+
+  
+//pro-strat
+  //$().html("")
+  //$().html(<p>gbksbgk</p>)
