@@ -1,9 +1,12 @@
+document.getElementById("StepInto").onclick = function() {myFunction()};
+
+function myFunction() {
+    console.log("hello")
+}
 
 
 
-
-
-var countdownTime = 124;
+/*var countdownTime = 124;
 
 setInterval(function() {
     countdownTime--
@@ -15,7 +18,7 @@ setInterval(function() {
 
 
 
-  
+
 //pro-strat
   //$().html("")
   //$().html(<p>gbksbgk</p>)
