@@ -14,6 +14,8 @@ $( "#triviaQuiz" ).empty();
 setInterval(function() {
     countdownTime--
     $("#part2").html(countdownTime);
+    $("#part2").append("<p>" + "What is the most popular Christmas song?" + "</p>")
+    $("#part2").append("<p>" + "Jingle Bells" + "</p>")
     $("#part2").append("<br>" + "<button>" + "Done" + "</button>");
 
 
