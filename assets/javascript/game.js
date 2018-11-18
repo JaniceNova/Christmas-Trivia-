@@ -1,11 +1,20 @@
+var countdownTime = 124;
+
 document.getElementById("StepInto").onclick = function() {myFunction()};
 
 function myFunction() {
   
      	
 $( "#triviaQuiz" ).empty();
-   //$("#StepInto").html("<p>"+"</p>");
-     $("#part2").append("<div>"+"hello"+"</div>");
+
+
+setInterval(function() {
+    countdownTime--
+    $("#part2").html(countdownTime);
+    
+  }, 1000);
+
+
 }
 
 
